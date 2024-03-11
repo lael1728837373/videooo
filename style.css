@@ -1,0 +1,32 @@
+*{
+    margin: 5;
+    padding: 5;
+    box-sizing: border-box;
+}
+
+
+#color1{
+    background: linear-gradient(rgb(31, 31, 137), rgb(198, 63, 63) );
+    -webkit-background-clip: text;
+    color:transparent;
+}
+dt{
+    background: rgb(23, 23, 125);
+    background: radial-gradient(circle, rgb(59, 115, 218) 0%, rgb(30, 118, 232) rgb );
+    text-shadow: 2px solid black;
+}
+dd{
+    color:rgb(42, 124, 124);
+}
+img{
+    display: block;
+    margin: auto;
+    width: 400;
+    height: 300;
+    border: 4px solid rgb(23, 23, 125);
+    border-radius: 50%;
+}
+img:hover{
+    transition: 2s all ease;
+    transform: scale(1.1);
+}
